@@ -15,7 +15,7 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-		"n-console": ["error", {
+		"no-console": ["error", {
 			"allow": ["error", "warn", "log"]
 		}]
     },
