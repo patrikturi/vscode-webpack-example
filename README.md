@@ -1,8 +1,15 @@
-Example project for Visual Studio Code with webpack and chrome.
+Example project for Visual Studio Code with Webpack and Chrome.
 
-Don't forget to copy all non-javascript files from app/ to dist/.
+The content currently is a Phaser game, could be adapted to other types of projects later.
 
-Usage:
-* npm build
+
+Development:
 * npm dev
-* Start debugging in vscode
+* npm start
+* Start debugging (F5)
+
+
+Testing / deployment:
+* npm check
+* npm test
+* npm deploy
