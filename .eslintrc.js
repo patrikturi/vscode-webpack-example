@@ -1,8 +1,10 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "jest/globals": true
     },
+    "plugins": ["jest"],
     "extends": "eslint:recommended",
     "globals": {
         "Atomics": "readonly",
@@ -13,6 +15,9 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+		"n-console": ["error", {
+			"allow": ["error", "warn", "log"]
+		}]
     },
 	"globals": {
 		"Phaser": true

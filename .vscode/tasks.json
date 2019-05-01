@@ -5,22 +5,22 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "build",
-      "problemMatcher": []
-    },
-    {
-      "type": "npm",
-      "script": "serve",
-      "problemMatcher": []
-    },
-    {
-      "type": "npm",
-      "script": "start:dev",
-      "problemMatcher": []
-    },
-    {
-      "type": "npm",
       "script": "dev",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "test",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "deploy",
       "problemMatcher": []
     }
   ]
