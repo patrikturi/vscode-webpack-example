@@ -4,7 +4,7 @@ The content currently is a Phaser game, could be adapted to other types of proje
 
 
 Development:
-* npm dev
+* npm run dev
 * npm start
 * Start debugging (F5)
 
