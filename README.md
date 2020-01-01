@@ -12,4 +12,4 @@ Development:
 Testing / deployment:
 * npm check
 * npm test
-* npm deploy
+* npm run dist

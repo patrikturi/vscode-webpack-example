@@ -6,7 +6,7 @@
     "start": "webpack-dev-server --mode development --watch",
     "check": "node_modules/.bin/eslint ./app/**/**.js",
     "test": "jest",
-    "deploy": "python deploy.py"
+    "dist": "python scripts/dist.py"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
